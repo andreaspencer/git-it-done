@@ -94,7 +94,7 @@ var buttonClickHandler = function(event) {
 
         repoContainerEl.textContent = "";
     }
-}
+};
 
 userFormEl.addEventListener("submit", formSubmitHandler);
 languageButtonsEl.addEventListener("click", buttonClickHandler);
